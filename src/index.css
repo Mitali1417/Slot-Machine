@@ -110,22 +110,6 @@ body{
   resize: none;
   overflow: hidden;
 }
-.congo{
-  width: 100%;
-}
-#congo textarea{
-  color: var(--skin);
-  text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.486);
-  text-align: center;
-  width: 100%;
-  resize: none;
-  overflow: hidden;
-  background: none;
-  border: none;
-  font-size: 2rem;
-  font-weight: bold;
-  padding: 1rem;
-}
 
 @media ( max-width: 1024px){
   .heading__style{
@@ -144,10 +128,204 @@ body{
   height: 11.5rem;
   width: 11.5rem;
   }
+
+}
+
+@media(max-width:912px){
+
+  .heading__style{
+    margin: 5rem auto;
+    font-size: 3.4rem;
+  }
+  .slotMachine{
+    margin: 3rem auto;
+  }
+  .slotDisplay{
+    padding: 2rem;
+    width: auto;
+    margin: auto -2rem;
+  }
+  #row1, #row2, #row3{
+    font-size: 7rem;
+    margin: 0.2rem;
+    height: 12.5rem;
+    width: 12.5rem;
+  }
   #lastOutput{
+    height: 12rem;  
+    width: 32rem;
     font-size: 6rem;
-    padding: 0.25rem;
-    width: 70%;
-    height: 9rem;
+    padding: 1.7rem ;
+     
+  }
+}
+
+@media(max-width:768px){
+
+  .heading__style{
+    font-size: 3.5rem;
+  }
+  .slotMachine{
+    margin: 3rem auto;
+    
+    justify-content: center;
+    align-items: center;
+  }
+  .slotDisplay{
+    padding: 2rem;
+    width: auto;
+    margin: auto -4rem;
+  }
+  #row1, #row2, #row3{
+    font-size: 7rem;
+    margin: 1rem;
+    height: 10.5rem;
+    width: 10.5rem;
+  }
+  #lastOutput{
+    height: 10rem;  
+    width: 27rem;
+    font-size: 5rem;
+    padding: 1rem ;
+     
+  }
+}
+
+@media(max-width:540px){
+
+  .heading__style{
+    font-size: 2.5rem;
+  }
+  .slotMachine{
+    margin: 3rem auto;
+    
+    justify-content: center;
+    align-items: center;
+  }
+  .slotDisplay{
+    padding: 2rem;
+    width: auto;
+    margin: auto -2rem;
+  }
+  #row1, #row2, #row3{
+    font-size: 4rem;
+    margin: 0.2rem;
+    height: 7.5rem;
+    width: 7.5rem;
+  }
+  #lastOutput{
+    height: 7rem;  
+    width: 20rem;
+    font-size: 3.5rem;
+    padding: 1rem ;
+     
+  }
+}
+
+@media(max-width:414px){
+  .heading__style{
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .slotDisplay{
+    flex-flow: column wrap;
+    padding: 3rem;
+    width: auto;
+    margin: auto -4rem;
+  }
+  #row1, #row2, #row3{
+    font-size: 6rem;
+    margin: 0.2rem;
+    height: 9.5rem;
+    width: 9.5rem;
+  }
+  #lastOutput{
+    font-size: 3.3rem;
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+
+@media(max-width:412px){
+  .heading__style{
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .slotDisplay{
+    flex-flow: column wrap;
+    padding: 3rem;
+    width: auto;
+    margin: auto -4rem;
+  }
+  #row1, #row2, #row3{
+    font-size: 6rem;
+    margin: 0.2rem;
+    height: 9.5rem;
+    width: 9.5rem;
+  }
+  #lastOutput{
+    font-size: 3.3rem;
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media(max-width:393px){
+  .heading__style{
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 1rem auto;
+  }
+  .slotDisplay{
+    flex-flow: column wrap;
+    padding: 2rem;
+    width: auto;
+    margin: auto -4rem;
+  }
+  #lastOutput{
+    font-size: 2.5rem;
+    width: 100%;
+    padding: 0.5rem;
+    height: 5rem;
+  }
+}
+
+@media(max-width:360px){
+  .heading__style{
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 1rem auto;
+  }
+  .slotDisplay{
+    flex-flow: column wrap;
+    padding: 2rem;
+    width: auto;
+    margin: auto -4rem;
+  }
+  #lastOutput{
+    font-size: 2.5rem;
+    width: 100%;
+    padding: 0.5rem;
+    height: 5rem;
+  }
+}
+
+@media(max-width:280px){
+
+  .heading__style{
+    font-size: 1.75rem;
+  }
+  #row1, #row2, #row3{
+    font-size: 6rem;
+    margin: 0.3rem;
+    height: 9.5rem;
+    width: 9.5rem;
+  }
+  #lastOutput{
+    height: 12rem;  
+    font-size: 3rem;
+    padding: 1.5rem ;
+     
   }
 }
