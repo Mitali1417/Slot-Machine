@@ -111,7 +111,7 @@ body{
   overflow: hidden;
 }
 
-@media ( max-width: 1024px){
+@media screen and ( max-width: 1024px){
   .heading__style{
     font-size: 3rem;
   }
@@ -131,7 +131,7 @@ body{
 
 }
 
-@media(max-width:912px){
+@media screen and (max-width:912px){
 
   .heading__style{
     margin: 5rem auto;
@@ -160,7 +160,7 @@ body{
   }
 }
 
-@media(max-width:768px){
+@media screen and (max-width:768px){
 
   .heading__style{
     font-size: 3.5rem;
@@ -191,7 +191,7 @@ body{
   }
 }
 
-@media(max-width:540px){
+@media screen and (max-width:540px){
 
   .heading__style{
     font-size: 2.5rem;
@@ -222,7 +222,7 @@ body{
   }
 }
 
-@media(max-width:414px){
+@media screen and (max-width:414px){
   .heading__style{
     font-size: 2rem;
     font-weight: 800;
@@ -247,7 +247,7 @@ body{
 }
 
 
-@media(max-width:412px){
+@media screen and (max-width:412px){
   .heading__style{
     font-size: 2rem;
     font-weight: 800;
@@ -271,7 +271,7 @@ body{
   }
 }
 
-@media(max-width:393px){
+@media screen and (max-width:393px){
   .heading__style{
     font-size: 2rem;
     font-weight: 800;
@@ -291,7 +291,7 @@ body{
   }
 }
 
-@media(max-width:360px){
+@media screen and (max-width:360px){
   .heading__style{
     font-size: 2rem;
     font-weight: 800;
@@ -311,8 +311,7 @@ body{
   }
 }
 
-@media(max-width:280px){
-
+@media screen and (max-width:280px){
   .heading__style{
     font-size: 1.75rem;
   }
@@ -326,6 +325,5 @@ body{
     height: 12rem;  
     font-size: 3rem;
     padding: 1.5rem ;
-     
   }
 }
