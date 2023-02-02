@@ -5,7 +5,7 @@ import "./index.css";
 function App() {
     return (
       <>
-        <h1 className="heading__style">Easy Slot Machine</h1>
+      <div className="heading__style">Slot Machine</div>
 
         <div className="slotMachine">
           <div className="slotDisplay">

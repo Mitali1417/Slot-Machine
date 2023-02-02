@@ -22,16 +22,19 @@ body{
   background: var(--gradientSupport);
 }
 
+
 .heading__style{
   color: var(--skin);
   width: 90%;
+  display: flex;
+  flex-flow: wrap column;
   border-radius: 6rem;
   margin: 2rem auto;
   text-align: center;
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 4.5rem;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 1spx;
   font-weight: 900;
   margin-bottom: 30px;
   text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.486);
@@ -111,6 +114,7 @@ body{
   overflow: hidden;
 }
 
+
 @media screen and ( max-width: 1024px){
   .heading__style{
     font-size: 3rem;
@@ -164,6 +168,7 @@ body{
 
   .heading__style{
     font-size: 3.5rem;
+    margin: 1rem auto;
   }
   .slotMachine{
     margin: 3rem auto;
@@ -188,6 +193,42 @@ body{
     font-size: 5rem;
     padding: 1rem ;
      
+  }
+}
+
+@media screen and (max-width:720px){
+  .heading__style{
+    font-size: 3.5rem;
+    margin: 1rem auto;
+  }
+  .slotMachine{
+    margin: 2rem auto;
+  }
+  .slotDisplay{
+    padding: 0rem ;
+    width: auto;
+    margin: auto -3rem;
+  }
+}
+
+@media screen and (max-width:600px){
+  .heading__style{
+    font-size: 3.5rem;
+    margin: 1rem auto;
+  }
+  .slotMachine{
+    margin: 2rem auto;
+  }
+  .slotDisplay{
+    padding: 0rem ;
+    width: auto;
+    margin: auto -6rem;
+  }
+  #row1, #row2, #row3{
+    font-size: 6rem;
+    margin: 1rem;
+    height: 8.5rem;
+    width: 8.5rem;
   }
 }
 
@@ -222,6 +263,43 @@ body{
   }
 }
 
+@media screen and (max-width:500px){
+  .heading__style{
+    font-size: 2.5rem;
+    margin: 1rem auto;
+  }
+  .slotMachine{
+    margin: 2rem auto;
+  }
+  .slotDisplay{
+    padding: 1rem ;
+    width: auto;
+    margin: auto -3rem;
+  }
+  #row1, #row2, #row3{
+    font-size: 4rem;
+    margin: 0.2rem;
+    height: 7.5rem;
+    width: 7.5rem;
+  }
+}
+@media screen and (max-width:456px){
+  .heading__style{
+    font-size: 2.3rem;
+    margin: 1rem auto;
+  }
+  .slotMachine{
+    margin: 2rem auto;
+  }
+  .slotDisplay{
+    padding: 1rem ;
+    width: auto;
+    margin: auto -3rem;
+  }
+  #row1, #row2, #row3{
+    font-size: 4rem;
+  }
+}
 @media screen and (max-width:414px){
   .heading__style{
     font-size: 2rem;
